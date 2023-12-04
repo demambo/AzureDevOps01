@@ -4,7 +4,7 @@ using AzureDevOps01.Context;
 
 
 
-public class ProductoTests
+public class ProductoTest
 {
     [Fact]
     public void VerificarSiHayDatosEnLaBaseDeDatos()
