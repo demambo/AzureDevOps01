@@ -95,7 +95,7 @@ public class ProductoTests
             var cantidadProductos = context.Producto.Count();
 
             
-            Assert.True(cantidadProductos == 0);
+            Assert.True(cantidadProductos > 0);
         }
     }
 }
