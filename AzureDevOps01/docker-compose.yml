@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  AzureDevOps01:
-    image: ${DOCKER_REGISTRY-}AzureDevOps01
-    build:
-      context: .
-      dockerfile: src\AzureDevOps01\Dockerfile
